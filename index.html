@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="text">Hey Siri</p>
+    <h1>Hello Akki</h1>
+    <div class="box">box </div>
+
+    <h1 id="textOne">This is Akki</h1>
+    <div id="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <button onclick="change_flex()">Change Flex direction</button>
+    <h1 id="heading"></h1>
+
+    <h2 id="hello">Hello world !!</h2>
+    <button onclick="change_text()">Replace Text</button>
+
+    <div id="container1">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+        <div id="session">AM</div>
+    </div>
+    <label for="year">select year</label>
+    <select name="year" id="year">
+        <option value="2020-2021">2020-2021</option>
+        <option value="2021-2022">2021-2022</option>
+    </select>
+    <div id="select_text">
+        <span></span>
+    </div> <br>
+    <button onclick="giveOption()">show text in option</button> <br> <br>
+<div id = "form">
+    <form action="" name="myform">
+        <label for="name" >Name :  </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" id="name" placeholder="Enter Your name" value="" required><br><br>
+        <label for="mail">Email Id: </label>&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="mail" placeholder="Enter your email" value="" required><br><br>
+        <label for="phone">Phone no :</label>&nbsp;&nbsp;
+        <input type="tel" name="phone" id="phone" placeholder="+91" value="" maxlength="10"><br><br>
+        <label for="age">Birth year :</label>&nbsp;
+        <input type="number" name="age" id="age" placeholder="Enter Age" value=""><br><br>
+        <input type="submit" onclick="validateform()" name="sumbit" value="submit">
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
